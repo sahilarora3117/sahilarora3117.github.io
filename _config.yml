@@ -20,7 +20,7 @@
 
 title: Sudo Blog
 email: iamsahil@protonmail.com
-description: Still to write
+description: Making awesome apps.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "sahilarora3117.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: sahilarora3117
@@ -28,6 +28,8 @@ github_username:  sahilarora3117
 
 # Build settings
 theme: minima
+minima:
+  skin: dark
 plugins:
   - jekyll-feed
 

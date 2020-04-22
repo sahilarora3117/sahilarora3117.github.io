@@ -7,14 +7,15 @@
 
 body{
     font-family: 'Exo', sans-serif;
-    text-align: center;
 }
 
 
 .context {
     width: 100%;
     position: absolute;
-    top:50vh;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
     
 }
 

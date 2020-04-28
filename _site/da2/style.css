@@ -217,4 +217,6 @@ body{
   .fifth:hover:after {
     width: 110%;
   }
-  
+a {
+    text-decoration: none;
+}

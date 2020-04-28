@@ -16,25 +16,25 @@
 </head>
 	<body>
 		<div class="context">
-			<h1 class="heading">Triggers</h1>
+			<h1 class="heading">Cursors</h1>
 			<div id="carouselExampleCaptions" class="carousel slide container"  data-ride="carousel">
 				<div class="carousel-inner">
-				  <div class="carousel-item active">
+				  <div class="carousel-item active container">
 					<img src="carbon1.png" class="d-block container" alt="...">
 					<div class="container">
-						<button type="button" class="btn btn-light bto" data-toggle="popover" data-trigger="focus" title="Basic Structure of a Trigger" data-content="Triggers can be defined on the table, view, schema, or database with which the event is associated.">More Information</button>
+						<button type="button" class="btn btn-light bto" data-toggle="popover" data-trigger="focus" title="Basic inplicit Cursors" data-content="Implicit cursors are automatically created by Oracle whenever an SQL statement is executed, when there is no explicit cursor for the statement. ">More Information</button>
 					</div>
 				  </div>
 				  <div class="carousel-item">
 					<img src="carbon2.png" class="d-block container"  alt="...">
 					<div class="container">
-						<button type="button" class="btn btn-light bto" data-toggle="popover" data-trigger="focus" title="A basic Trigger Script" data-content="The following program creates a row-level trigger for the customers table that would fire for INSERT or UPDATE or DELETE" >More Information</button>
+						<button type="button" class="btn btn-light bto" data-toggle="popover" data-trigger="focus" title="A basic Cursor Script" data-content="The following program will update the table and increase the salary of each customer by 500 and use the SQL%ROWCOUNT attribute to determine the number of rows affected −" >More Information</button>
 					</div>
 				</div class = "container">
 				  <div class="carousel-item">
 					<img src="carbon3.png" class="d-block container" alt="...">
 					<div class= "container">
-						<button type="button" class="btn btn-light bto" data-toggle="popover" data-trigger="focus" title="Triggering a Trigger" data-content="This basic insert statement is to trigger the trigger.">More Information</button>
+						<button type="button" class="btn btn-light bto" data-toggle="popover" data-trigger="focus" title="Using Explicit Cursors" data-content="Explicit cursors are programmer-defined cursors for gaining more control over the context area. An explicit cursor should be defined in the declaration section of the PL/SQL Block.">More Information</button>
 					</div>
 				  </div>
 				</div>

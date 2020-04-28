@@ -1,52 +1,26 @@
 <html>	
 	<head>
 		<link rel="stylesheet" href="style.css">
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-<script>
-	$(function () {
-  $('[data-toggle="popover"]').popover()
-})
-	$('.popover-dismiss').popover({
-  trigger: 'focus'
-})
-</script>	
-</head>
+
+	</head>
 	<body>
 		<div class="context">
-			<h1 class="heading">Cursors</h1>
-			<div id="carouselExampleCaptions" class="carousel slide container"  data-ride="carousel">
-				<div class="carousel-inner">
-				  <div class="carousel-item active container">
-					<img src="carbon1.png" class="d-block container" alt="...">
-					<div class="container">
-						<button type="button" class="btn btn-light bto" data-toggle="popover" data-trigger="focus" title="Basic inplicit Cursors" data-content="Implicit cursors are automatically created by Oracle whenever an SQL statement is executed, when there is no explicit cursor for the statement. ">More Information</button>
-					</div>
-				  </div>
-				  <div class="carousel-item">
-					<img src="carbon2.png" class="d-block container"  alt="...">
-					<div class="container">
-						<button type="button" class="btn btn-light bto" data-toggle="popover" data-trigger="focus" title="A basic Cursor Script" data-content="The following program will update the table and increase the salary of each customer by 500 and use the SQL%ROWCOUNT attribute to determine the number of rows affected −" >More Information</button>
-					</div>
-				</div class = "container">
-				  <div class="carousel-item">
-					<img src="carbon3.png" class="d-block container" alt="...">
-					<div class= "container">
-						<button type="button" class="btn btn-light bto" data-toggle="popover" data-trigger="focus" title="Using Explicit Cursors" data-content="Explicit cursors are programmer-defined cursors for gaining more control over the context area. An explicit cursor should be defined in the declaration section of the PL/SQL Block.">More Information</button>
-					</div>
-				  </div>
-				</div>
-				<a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-				  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-				  <span class="sr-only">Previous</span>
-				</a>
-				<a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-				  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-				  <span class="sr-only">Next</span>
-				</a>
-		</div>
+
+            <h1>What are Cursors? </h1>
+            <br />
+
+            <br />
+
+            <p>
+                A cursor is a pointer to a private SQL area that stores information about processing a specific SELECT or DML statement. <br />
+                A session cursor that is constructed and managed by PL/SQL is an implicit cursor. A session cursor that you construct and manage is an explicit cursor.            </p>
+			<br />
+            <br />
+            <br />
+            <a href="/da2/cursors/examples/"><button class="btn fifth">Learn By Examples</button></a>
+
+			
+
 		</div>
 	
 	

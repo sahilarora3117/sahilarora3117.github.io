@@ -16,7 +16,7 @@ body{
     top:50%;
     left:50%;
     transform:translate(-50%,-50%);
-    z-index: 100;
+    z-index: 1000;
     
 }
 
@@ -218,6 +218,19 @@ body{
     width: 110%;
   }
   
-a {
-    text-decoration: none;
+
+.heading {
+    position: absolute;
+    margin-top: 0px;
+    margin-bottom: 100%;
+    left: 50%;
+    transform:translate(-50%,0%);
+}
+
+.bto {
+    position: absolute;
+    top:95%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    z-index: 100;
 }
